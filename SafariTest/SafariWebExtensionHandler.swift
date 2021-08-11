@@ -19,11 +19,10 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
         let availableInKB = availableMem / 1024
         os_log(.default, "Memory actually available to the extension: \(availableInKB)KB")
         
-        os_log(.default, "Using a little more memory to cause a crash")
-        
-        // A 2MB array
+        // Exceeding the available memory by a tiny amount
         let memToAllocalte = availableMem + 512 * 1024
         
+        os_log(.default, "Allocating a \(memToAllocalte / 1024)KB object to cause a crash")
         // Crash happens here (on a real device, not in simulator), because memory usage exceeds 6MB
         let array = [UInt8](repeating: 0, count: memToAllocalte)
         
