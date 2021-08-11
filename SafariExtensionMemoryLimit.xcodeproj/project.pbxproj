@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4947BC9D26C3B3FC00BD8A77 /* SafariExtensionMemoryLimitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4947BC9C26C3B3FC00BD8A77 /* SafariExtensionMemoryLimitApp.swift */; };
+		4947BC9F26C3B3FC00BD8A77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4947BC9E26C3B3FC00BD8A77 /* ContentView.swift */; };
+		4947BCA126C3B3FD00BD8A77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4947BCA026C3B3FD00BD8A77 /* Assets.xcassets */; };
+		4947BCA426C3B3FD00BD8A77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4947BCA326C3B3FD00BD8A77 /* Preview Assets.xcassets */; };
+		4947BCAF26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4947BCAE26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests.swift */; };
+		4947BCBA26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4947BCB926C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4947BCAB26C3B3FE00BD8A77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4947BC9126C3B3FC00BD8A77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4947BC9826C3B3FC00BD8A77;
+			remoteInfo = SafariExtensionMemoryLimit;
+		};
+		4947BCB626C3B3FE00BD8A77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4947BC9126C3B3FC00BD8A77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4947BC9826C3B3FC00BD8A77;
+			remoteInfo = SafariExtensionMemoryLimit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4947BC9926C3B3FC00BD8A77 /* SafariExtensionMemoryLimit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariExtensionMemoryLimit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4947BC9C26C3B3FC00BD8A77 /* SafariExtensionMemoryLimitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionMemoryLimitApp.swift; sourceTree = "<group>"; };
+		4947BC9E26C3B3FC00BD8A77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4947BCA026C3B3FD00BD8A77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4947BCA326C3B3FD00BD8A77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4947BCA526C3B3FD00BD8A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4947BCAA26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariExtensionMemoryLimitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4947BCAE26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionMemoryLimitTests.swift; sourceTree = "<group>"; };
+		4947BCB026C3B3FE00BD8A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4947BCB526C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariExtensionMemoryLimitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4947BCB926C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionMemoryLimitUITests.swift; sourceTree = "<group>"; };
+		4947BCBB26C3B3FE00BD8A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4947BC9626C3B3FC00BD8A77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4947BCA726C3B3FE00BD8A77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4947BCB226C3B3FE00BD8A77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4947BC9026C3B3FC00BD8A77 = {
+			isa = PBXGroup;
+			children = (
+				4947BC9B26C3B3FC00BD8A77 /* SafariExtensionMemoryLimit */,
+				4947BCAD26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests */,
+				4947BCB826C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests */,
+				4947BC9A26C3B3FC00BD8A77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4947BC9A26C3B3FC00BD8A77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4947BC9926C3B3FC00BD8A77 /* SafariExtensionMemoryLimit.app */,
+				4947BCAA26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests.xctest */,
+				4947BCB526C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4947BC9B26C3B3FC00BD8A77 /* SafariExtensionMemoryLimit */ = {
+			isa = PBXGroup;
+			children = (
+				4947BC9C26C3B3FC00BD8A77 /* SafariExtensionMemoryLimitApp.swift */,
+				4947BC9E26C3B3FC00BD8A77 /* ContentView.swift */,
+				4947BCA026C3B3FD00BD8A77 /* Assets.xcassets */,
+				4947BCA526C3B3FD00BD8A77 /* Info.plist */,
+				4947BCA226C3B3FD00BD8A77 /* Preview Content */,
+			);
+			path = SafariExtensionMemoryLimit;
+			sourceTree = "<group>";
+		};
+		4947BCA226C3B3FD00BD8A77 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4947BCA326C3B3FD00BD8A77 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4947BCAD26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4947BCAE26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests.swift */,
+				4947BCB026C3B3FE00BD8A77 /* Info.plist */,
+			);
+			path = SafariExtensionMemoryLimitTests;
+			sourceTree = "<group>";
+		};
+		4947BCB826C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4947BCB926C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests.swift */,
+				4947BCBB26C3B3FE00BD8A77 /* Info.plist */,
+			);
+			path = SafariExtensionMemoryLimitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4947BC9826C3B3FC00BD8A77 /* SafariExtensionMemoryLimit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4947BCBE26C3B3FE00BD8A77 /* Build configuration list for PBXNativeTarget "SafariExtensionMemoryLimit" */;
+			buildPhases = (
+				4947BC9526C3B3FC00BD8A77 /* Sources */,
+				4947BC9626C3B3FC00BD8A77 /* Frameworks */,
+				4947BC9726C3B3FC00BD8A77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafariExtensionMemoryLimit;
+			productName = SafariExtensionMemoryLimit;
+			productReference = 4947BC9926C3B3FC00BD8A77 /* SafariExtensionMemoryLimit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4947BCA926C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4947BCC126C3B3FE00BD8A77 /* Build configuration list for PBXNativeTarget "SafariExtensionMemoryLimitTests" */;
+			buildPhases = (
+				4947BCA626C3B3FE00BD8A77 /* Sources */,
+				4947BCA726C3B3FE00BD8A77 /* Frameworks */,
+				4947BCA826C3B3FE00BD8A77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4947BCAC26C3B3FE00BD8A77 /* PBXTargetDependency */,
+			);
+			name = SafariExtensionMemoryLimitTests;
+			productName = SafariExtensionMemoryLimitTests;
+			productReference = 4947BCAA26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4947BCB426C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4947BCC426C3B3FE00BD8A77 /* Build configuration list for PBXNativeTarget "SafariExtensionMemoryLimitUITests" */;
+			buildPhases = (
+				4947BCB126C3B3FE00BD8A77 /* Sources */,
+				4947BCB226C3B3FE00BD8A77 /* Frameworks */,
+				4947BCB326C3B3FE00BD8A77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4947BCB726C3B3FE00BD8A77 /* PBXTargetDependency */,
+			);
+			name = SafariExtensionMemoryLimitUITests;
+			productName = SafariExtensionMemoryLimitUITests;
+			productReference = 4947BCB526C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4947BC9126C3B3FC00BD8A77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4947BC9826C3B3FC00BD8A77 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					4947BCA926C3B3FE00BD8A77 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4947BC9826C3B3FC00BD8A77;
+					};
+					4947BCB426C3B3FE00BD8A77 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4947BC9826C3B3FC00BD8A77;
+					};
+				};
+			};
+			buildConfigurationList = 4947BC9426C3B3FC00BD8A77 /* Build configuration list for PBXProject "SafariExtensionMemoryLimit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4947BC9026C3B3FC00BD8A77;
+			productRefGroup = 4947BC9A26C3B3FC00BD8A77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4947BC9826C3B3FC00BD8A77 /* SafariExtensionMemoryLimit */,
+				4947BCA926C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests */,
+				4947BCB426C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4947BC9726C3B3FC00BD8A77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4947BCA426C3B3FD00BD8A77 /* Preview Assets.xcassets in Resources */,
+				4947BCA126C3B3FD00BD8A77 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4947BCA826C3B3FE00BD8A77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4947BCB326C3B3FE00BD8A77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4947BC9526C3B3FC00BD8A77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4947BC9F26C3B3FC00BD8A77 /* ContentView.swift in Sources */,
+				4947BC9D26C3B3FC00BD8A77 /* SafariExtensionMemoryLimitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4947BCA626C3B3FE00BD8A77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4947BCAF26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4947BCB126C3B3FE00BD8A77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4947BCBA26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4947BCAC26C3B3FE00BD8A77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4947BC9826C3B3FC00BD8A77 /* SafariExtensionMemoryLimit */;
+			targetProxy = 4947BCAB26C3B3FE00BD8A77 /* PBXContainerItemProxy */;
+		};
+		4947BCB726C3B3FE00BD8A77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4947BC9826C3B3FC00BD8A77 /* SafariExtensionMemoryLimit */;
+			targetProxy = 4947BCB626C3B3FE00BD8A77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4947BCBC26C3B3FE00BD8A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4947BCBD26C3B3FE00BD8A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4947BCBF26C3B3FE00BD8A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SafariExtensionMemoryLimit/Preview Content\"";
+				DEVELOPMENT_TEAM = S8B638MM79;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SafariExtensionMemoryLimit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.gikken.SafariExtensionMemoryLimit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4947BCC026C3B3FE00BD8A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SafariExtensionMemoryLimit/Preview Content\"";
+				DEVELOPMENT_TEAM = S8B638MM79;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SafariExtensionMemoryLimit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.gikken.SafariExtensionMemoryLimit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4947BCC226C3B3FE00BD8A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8B638MM79;
+				INFOPLIST_FILE = SafariExtensionMemoryLimitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.gikken.SafariExtensionMemoryLimitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariExtensionMemoryLimit.app/SafariExtensionMemoryLimit";
+			};
+			name = Debug;
+		};
+		4947BCC326C3B3FE00BD8A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8B638MM79;
+				INFOPLIST_FILE = SafariExtensionMemoryLimitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.gikken.SafariExtensionMemoryLimitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariExtensionMemoryLimit.app/SafariExtensionMemoryLimit";
+			};
+			name = Release;
+		};
+		4947BCC526C3B3FE00BD8A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8B638MM79;
+				INFOPLIST_FILE = SafariExtensionMemoryLimitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.gikken.SafariExtensionMemoryLimitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafariExtensionMemoryLimit;
+			};
+			name = Debug;
+		};
+		4947BCC626C3B3FE00BD8A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8B638MM79;
+				INFOPLIST_FILE = SafariExtensionMemoryLimitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.gikken.SafariExtensionMemoryLimitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafariExtensionMemoryLimit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4947BC9426C3B3FC00BD8A77 /* Build configuration list for PBXProject "SafariExtensionMemoryLimit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4947BCBC26C3B3FE00BD8A77 /* Debug */,
+				4947BCBD26C3B3FE00BD8A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4947BCBE26C3B3FE00BD8A77 /* Build configuration list for PBXNativeTarget "SafariExtensionMemoryLimit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4947BCBF26C3B3FE00BD8A77 /* Debug */,
+				4947BCC026C3B3FE00BD8A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4947BCC126C3B3FE00BD8A77 /* Build configuration list for PBXNativeTarget "SafariExtensionMemoryLimitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4947BCC226C3B3FE00BD8A77 /* Debug */,
+				4947BCC326C3B3FE00BD8A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4947BCC426C3B3FE00BD8A77 /* Build configuration list for PBXNativeTarget "SafariExtensionMemoryLimitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4947BCC526C3B3FE00BD8A77 /* Debug */,
+				4947BCC626C3B3FE00BD8A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4947BC9126C3B3FC00BD8A77 /* Project object */;
+}
