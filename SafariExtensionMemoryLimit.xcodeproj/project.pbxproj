@@ -11,26 +11,41 @@
 		4947BC9F26C3B3FC00BD8A77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4947BC9E26C3B3FC00BD8A77 /* ContentView.swift */; };
 		4947BCA126C3B3FD00BD8A77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4947BCA026C3B3FD00BD8A77 /* Assets.xcassets */; };
 		4947BCA426C3B3FD00BD8A77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4947BCA326C3B3FD00BD8A77 /* Preview Assets.xcassets */; };
-		4947BCAF26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4947BCAE26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests.swift */; };
-		4947BCBA26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4947BCB926C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests.swift */; };
+		49E294DE26C3B4500072EB3D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E294DD26C3B4500072EB3D /* SafariWebExtensionHandler.swift */; };
+		49E294E126C3B4510072EB3D /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 49E294E026C3B4510072EB3D /* _locales */; };
+		49E294E326C3B4510072EB3D /* images in Resources */ = {isa = PBXBuildFile; fileRef = 49E294E226C3B4510072EB3D /* images */; };
+		49E294E526C3B4510072EB3D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 49E294E426C3B4510072EB3D /* manifest.json */; };
+		49E294E726C3B4510072EB3D /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 49E294E626C3B4510072EB3D /* background.js */; };
+		49E294E926C3B4510072EB3D /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 49E294E826C3B4510072EB3D /* content.js */; };
+		49E294EB26C3B4510072EB3D /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 49E294EA26C3B4510072EB3D /* popup.html */; };
+		49E294ED26C3B4510072EB3D /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 49E294EC26C3B4510072EB3D /* popup.css */; };
+		49E294EF26C3B4510072EB3D /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 49E294EE26C3B4510072EB3D /* popup.js */; };
+		49E294F326C3B4510072EB3D /* SafariTest.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 49E294DB26C3B4500072EB3D /* SafariTest.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4947BCAB26C3B3FE00BD8A77 /* PBXContainerItemProxy */ = {
+		49E294F126C3B4510072EB3D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4947BC9126C3B3FC00BD8A77 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4947BC9826C3B3FC00BD8A77;
-			remoteInfo = SafariExtensionMemoryLimit;
-		};
-		4947BCB626C3B3FE00BD8A77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4947BC9126C3B3FC00BD8A77 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4947BC9826C3B3FC00BD8A77;
-			remoteInfo = SafariExtensionMemoryLimit;
+			remoteGlobalIDString = 49E294DA26C3B4500072EB3D;
+			remoteInfo = SafariTest;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49E294F426C3B4510072EB3D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				49E294F326C3B4510072EB3D /* SafariTest.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4947BC9926C3B3FC00BD8A77 /* SafariExtensionMemoryLimit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariExtensionMemoryLimit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,12 +54,17 @@
 		4947BCA026C3B3FD00BD8A77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4947BCA326C3B3FD00BD8A77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4947BCA526C3B3FD00BD8A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4947BCAA26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariExtensionMemoryLimitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4947BCAE26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionMemoryLimitTests.swift; sourceTree = "<group>"; };
-		4947BCB026C3B3FE00BD8A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4947BCB526C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariExtensionMemoryLimitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4947BCB926C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionMemoryLimitUITests.swift; sourceTree = "<group>"; };
-		4947BCBB26C3B3FE00BD8A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E294DB26C3B4500072EB3D /* SafariTest.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SafariTest.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E294DD26C3B4500072EB3D /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		49E294E026C3B4510072EB3D /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		49E294E226C3B4510072EB3D /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		49E294E426C3B4510072EB3D /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		49E294E626C3B4510072EB3D /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		49E294E826C3B4510072EB3D /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		49E294EA26C3B4510072EB3D /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		49E294EC26C3B4510072EB3D /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		49E294EE26C3B4510072EB3D /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		49E294F026C3B4510072EB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,14 +75,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4947BCA726C3B3FE00BD8A77 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4947BCB226C3B3FE00BD8A77 /* Frameworks */ = {
+		49E294D826C3B4500072EB3D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				4947BC9B26C3B3FC00BD8A77 /* SafariExtensionMemoryLimit */,
-				4947BCAD26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests */,
-				4947BCB826C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests */,
+				49E294DC26C3B4500072EB3D /* SafariTest */,
 				4947BC9A26C3B3FC00BD8A77 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				4947BC9926C3B3FC00BD8A77 /* SafariExtensionMemoryLimit.app */,
-				4947BCAA26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests.xctest */,
-				4947BCB526C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests.xctest */,
+				49E294DB26C3B4500072EB3D /* SafariTest.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,22 +123,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4947BCAD26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests */ = {
+		49E294DC26C3B4500072EB3D /* SafariTest */ = {
 			isa = PBXGroup;
 			children = (
-				4947BCAE26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests.swift */,
-				4947BCB026C3B3FE00BD8A77 /* Info.plist */,
+				49E294DD26C3B4500072EB3D /* SafariWebExtensionHandler.swift */,
+				49E294F026C3B4510072EB3D /* Info.plist */,
+				49E294DF26C3B4510072EB3D /* Resources */,
 			);
-			path = SafariExtensionMemoryLimitTests;
+			path = SafariTest;
 			sourceTree = "<group>";
 		};
-		4947BCB826C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests */ = {
+		49E294DF26C3B4510072EB3D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4947BCB926C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests.swift */,
-				4947BCBB26C3B3FE00BD8A77 /* Info.plist */,
+				49E294E026C3B4510072EB3D /* _locales */,
+				49E294E226C3B4510072EB3D /* images */,
+				49E294E426C3B4510072EB3D /* manifest.json */,
+				49E294E626C3B4510072EB3D /* background.js */,
+				49E294E826C3B4510072EB3D /* content.js */,
+				49E294EA26C3B4510072EB3D /* popup.html */,
+				49E294EC26C3B4510072EB3D /* popup.css */,
+				49E294EE26C3B4510072EB3D /* popup.js */,
 			);
-			path = SafariExtensionMemoryLimitUITests;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,51 +158,34 @@
 				4947BC9526C3B3FC00BD8A77 /* Sources */,
 				4947BC9626C3B3FC00BD8A77 /* Frameworks */,
 				4947BC9726C3B3FC00BD8A77 /* Resources */,
+				49E294F426C3B4510072EB3D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				49E294F226C3B4510072EB3D /* PBXTargetDependency */,
 			);
 			name = SafariExtensionMemoryLimit;
 			productName = SafariExtensionMemoryLimit;
 			productReference = 4947BC9926C3B3FC00BD8A77 /* SafariExtensionMemoryLimit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4947BCA926C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests */ = {
+		49E294DA26C3B4500072EB3D /* SafariTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4947BCC126C3B3FE00BD8A77 /* Build configuration list for PBXNativeTarget "SafariExtensionMemoryLimitTests" */;
+			buildConfigurationList = 49E294F726C3B4510072EB3D /* Build configuration list for PBXNativeTarget "SafariTest" */;
 			buildPhases = (
-				4947BCA626C3B3FE00BD8A77 /* Sources */,
-				4947BCA726C3B3FE00BD8A77 /* Frameworks */,
-				4947BCA826C3B3FE00BD8A77 /* Resources */,
+				49E294D726C3B4500072EB3D /* Sources */,
+				49E294D826C3B4500072EB3D /* Frameworks */,
+				49E294D926C3B4500072EB3D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4947BCAC26C3B3FE00BD8A77 /* PBXTargetDependency */,
 			);
-			name = SafariExtensionMemoryLimitTests;
-			productName = SafariExtensionMemoryLimitTests;
-			productReference = 4947BCAA26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4947BCB426C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4947BCC426C3B3FE00BD8A77 /* Build configuration list for PBXNativeTarget "SafariExtensionMemoryLimitUITests" */;
-			buildPhases = (
-				4947BCB126C3B3FE00BD8A77 /* Sources */,
-				4947BCB226C3B3FE00BD8A77 /* Frameworks */,
-				4947BCB326C3B3FE00BD8A77 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4947BCB726C3B3FE00BD8A77 /* PBXTargetDependency */,
-			);
-			name = SafariExtensionMemoryLimitUITests;
-			productName = SafariExtensionMemoryLimitUITests;
-			productReference = 4947BCB526C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = SafariTest;
+			productName = SafariTest;
+			productReference = 49E294DB26C3B4500072EB3D /* SafariTest.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -192,19 +193,14 @@
 		4947BC9126C3B3FC00BD8A77 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					4947BC9826C3B3FC00BD8A77 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
-					4947BCA926C3B3FE00BD8A77 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 4947BC9826C3B3FC00BD8A77;
-					};
-					4947BCB426C3B3FE00BD8A77 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 4947BC9826C3B3FC00BD8A77;
+					49E294DA26C3B4500072EB3D = {
+						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
@@ -222,8 +218,7 @@
 			projectRoot = "";
 			targets = (
 				4947BC9826C3B3FC00BD8A77 /* SafariExtensionMemoryLimit */,
-				4947BCA926C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests */,
-				4947BCB426C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests */,
+				49E294DA26C3B4500072EB3D /* SafariTest */,
 			);
 		};
 /* End PBXProject section */
@@ -238,17 +233,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4947BCA826C3B3FE00BD8A77 /* Resources */ = {
+		49E294D926C3B4500072EB3D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4947BCB326C3B3FE00BD8A77 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				49E294E726C3B4510072EB3D /* background.js in Resources */,
+				49E294ED26C3B4510072EB3D /* popup.css in Resources */,
+				49E294EB26C3B4510072EB3D /* popup.html in Resources */,
+				49E294E326C3B4510072EB3D /* images in Resources */,
+				49E294E526C3B4510072EB3D /* manifest.json in Resources */,
+				49E294E126C3B4510072EB3D /* _locales in Resources */,
+				49E294E926C3B4510072EB3D /* content.js in Resources */,
+				49E294EF26C3B4510072EB3D /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,34 +260,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4947BCA626C3B3FE00BD8A77 /* Sources */ = {
+		49E294D726C3B4500072EB3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4947BCAF26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4947BCB126C3B3FE00BD8A77 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4947BCBA26C3B3FE00BD8A77 /* SafariExtensionMemoryLimitUITests.swift in Sources */,
+				49E294DE26C3B4500072EB3D /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4947BCAC26C3B3FE00BD8A77 /* PBXTargetDependency */ = {
+		49E294F226C3B4510072EB3D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4947BC9826C3B3FC00BD8A77 /* SafariExtensionMemoryLimit */;
-			targetProxy = 4947BCAB26C3B3FE00BD8A77 /* PBXContainerItemProxy */;
-		};
-		4947BCB726C3B3FE00BD8A77 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4947BC9826C3B3FC00BD8A77 /* SafariExtensionMemoryLimit */;
-			targetProxy = 4947BCB626C3B3FE00BD8A77 /* PBXContainerItemProxy */;
+			target = 49E294DA26C3B4500072EB3D /* SafariTest */;
+			targetProxy = 49E294F126C3B4510072EB3D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -415,6 +398,7 @@
 		4947BCBF26C3B3FE00BD8A77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -437,6 +421,7 @@
 		4947BCC026C3B3FE00BD8A77 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,87 +441,65 @@
 			};
 			name = Release;
 		};
-		4947BCC226C3B3FE00BD8A77 /* Debug */ = {
+		49E294F526C3B4510072EB3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8B638MM79;
-				INFOPLIST_FILE = SafariExtensionMemoryLimitTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SafariTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SafariTest;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
+					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.gikken.SafariExtensionMemoryLimitTests;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.gikken.SafariExtensionMemoryLimit.SafariTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariExtensionMemoryLimit.app/SafariExtensionMemoryLimit";
 			};
 			name = Debug;
 		};
-		4947BCC326C3B3FE00BD8A77 /* Release */ = {
+		49E294F626C3B4510072EB3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8B638MM79;
-				INFOPLIST_FILE = SafariExtensionMemoryLimitTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SafariTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SafariTest;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
+					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.gikken.SafariExtensionMemoryLimitTests;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.gikken.SafariExtensionMemoryLimit.SafariTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariExtensionMemoryLimit.app/SafariExtensionMemoryLimit";
-			};
-			name = Release;
-		};
-		4947BCC526C3B3FE00BD8A77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S8B638MM79;
-				INFOPLIST_FILE = SafariExtensionMemoryLimitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.gikken.SafariExtensionMemoryLimitUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SafariExtensionMemoryLimit;
-			};
-			name = Debug;
-		};
-		4947BCC626C3B3FE00BD8A77 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S8B638MM79;
-				INFOPLIST_FILE = SafariExtensionMemoryLimitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.gikken.SafariExtensionMemoryLimitUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SafariExtensionMemoryLimit;
 			};
 			name = Release;
 		};
@@ -561,20 +524,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4947BCC126C3B3FE00BD8A77 /* Build configuration list for PBXNativeTarget "SafariExtensionMemoryLimitTests" */ = {
+		49E294F726C3B4510072EB3D /* Build configuration list for PBXNativeTarget "SafariTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4947BCC226C3B3FE00BD8A77 /* Debug */,
-				4947BCC326C3B3FE00BD8A77 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4947BCC426C3B3FE00BD8A77 /* Build configuration list for PBXNativeTarget "SafariExtensionMemoryLimitUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4947BCC526C3B3FE00BD8A77 /* Debug */,
-				4947BCC626C3B3FE00BD8A77 /* Release */,
+				49E294F526C3B4510072EB3D /* Debug */,
+				49E294F626C3B4510072EB3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
